@@ -20,7 +20,7 @@ import * as echarts from 'echarts'
 import http from "../http/index.js"
 
 const test_request = () => {
-  http.post("http://127.0.0.1:80/post").then((res) => {
+  http.post("http://api.uric.cn:8000/test/123/").then((res) => {
     console.log(res.data);
   })
 }
